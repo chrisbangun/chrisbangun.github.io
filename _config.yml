@@ -1,30 +1,39 @@
-# Site settings
-name: Adi Chris Bangun
-description: "A Passionate Learner"
-url: ""
+title: Hey Folks, it is ACB!
+description: AI and Machine Learning Enthusiast
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-
-# Delete the lines you don't need
-# about 5 elements are recomended
-github_username:  chrisbangun
-facebook_username: adichrisbangun
-#twitter_username: adichrisb
-linkedin_username: adichrisbangun
-stack_of_username: 2997327
+# Author Settings
+author: Adi Chris Bangun
+author-img: me.png
+about-author: >-
+  I am a Machine Learning Engineer with leading technology company in Indonesia.
+twitter: adichrisb
+facebook: adichrisbangun
+github: chrisbangun
+linkedin: adichrisbangun
 email: adichrisbangun18@gmail.com
 
+# Disqus
+discus-identifier:  # add your discus identifier
 
-avatar: yes
-avatar_img_path: "imgs/me.png"
-# You mejamejamejamejemejcan link to your GitHub image. That way it will get updated
-# automatically whenever you change your GitHub profile picture
-#avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
+# Tracker
+analytics: # Google Analytics
 
-
-front_img: yes
-front_img_path: "imgs/new_background.jpg"
-#front_img_path: "https://external.url/image.jpg"
-
-# Build settings
+# Build Settings
 markdown: kramdown
-permalink: pretty
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+highlighter: rouge
+plugins_dir:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
