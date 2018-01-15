@@ -9,9 +9,11 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Adi Chris Bangun
 author-img: me.png
 about-author: >-
-  I am a Machine Learning Engineer with leading technology company in Indonesia. 
-  Currently, I am interested in doing research on the generalization theory behind deep learning. 
+  a Machine Learning Engineer who is interested in doing research on the generalization theory behind deep learning. 
+   
+about-author-2: >-
   My long-term goal is to make deep neural network become more and more interpretable. 
+
 twitter: adichrisb
 facebook: adichrisbangun
 github: chrisbangun
