@@ -1,5 +1,5 @@
 title: Hey Folks, it is ACB!
-description: AI and Machine Learning Enthusiast
+description: AI and Machine Learning Enthusiast.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,7 +9,9 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Adi Chris Bangun
 author-img: me.png
 about-author: >-
-  I am a Machine Learning Engineer with leading technology company in Indonesia.
+  I am a Machine Learning Engineer with leading technology company in Indonesia. Currently, I am interested to
+  in doing research on the generalization theory behind deep learning. My long-term goal is to make deep neural network
+  become more and more interpretable. 
 twitter: adichrisb
 facebook: adichrisbangun
 github: chrisbangun
